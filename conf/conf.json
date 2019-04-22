@@ -1,0 +1,16 @@
+{
+	"model"           : "vgg16",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+	"train_path"      : "dataset/visdial-sample",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "output/visdial-sample/vgg16/features.h5",
+	"labels_path"     : "output/visdial-sample/vgg16/labels.h5",
+	"results"         : "output/visdial-sample/vgg16/results.txt",
+	"classifier_path" : "output/visdial-sample/vgg16/classifier.pickle",
+	"model_path"	  : "output/visdial-sample/vgg16/model",
+
+	"test_size"       : 0.10,
+	"seed"            : 9,
+	"num_classes"     : 17
+}
